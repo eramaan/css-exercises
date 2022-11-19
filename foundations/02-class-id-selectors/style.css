@@ -1,0 +1,18 @@
+.salmon {
+    background-color: #e9967a;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.fsize {
+    font-size: 24px;
+}
+
+#num2 {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+#num4 {
+    background-color: #00ff00;
+    font-weight: bold;
+}
