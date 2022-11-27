@@ -1,6 +1,10 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
 }
 
 .logo {
@@ -14,6 +18,9 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  padding: 0;
+  gap: 8px;
 }
 
 a {
@@ -23,3 +30,15 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+/* 
+no need to specify the flex start/end, as they will display correctly as there are three items spaced-between in the flex container
+
+.left-links {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right-links {
+  display: flex;
+  justify-content: flex-end;
+} */
